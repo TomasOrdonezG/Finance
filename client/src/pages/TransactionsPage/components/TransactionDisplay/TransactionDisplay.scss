@@ -1,0 +1,42 @@
+@import "../../../../variables";
+
+.transaction-display {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td {
+    border: 1px solid $font-color;
+    padding: 8px;
+    text-align: left;
+    button {
+      background-color: $primary-color;
+      height: 30px;
+      width: 30px;
+
+      border: none;
+      border-radius: 5px;
+
+      font-size: 16px;
+      text-decoration: none;
+
+      &.edit-button {
+        background-image: url(https://static.thenounproject.com/png/1360264-200.png);
+        background-size: cover;
+        background-position: 1px -1px;
+      }
+      &.delete-button {
+        background-image: url(https://icons.veryicon.com/png/o/business/simple-linear-icon-icon/delete-332.png);
+        background-position: 1px 0px;
+        background-size: 95%;
+      }
+
+      &:hover {
+        background-color: $highlight-color;
+      }
+    }
+  }
+  th {
+    @extend td;
+  }
+}

@@ -1,0 +1,16 @@
+.filter-form {
+  box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.5);
+  background-color: $bg-color;
+  top: 6.5%;
+  left: 5.6%;
+  width: 300px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  .filter-form-item {
+    padding: 4px;
+    margin: 10px;
+  }
+}

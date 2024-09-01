@@ -1,0 +1,31 @@
+.transaction-display table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.transaction-display td, .transaction-display th {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+}
+.transaction-display td button, .transaction-display th button {
+  background-color: #f06c78;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.transaction-display td button.edit-button, .transaction-display th button.edit-button {
+  background-image: url(https://static.thenounproject.com/png/1360264-200.png);
+  background-size: cover;
+  background-position: 1px -1px;
+}
+.transaction-display td button.delete-button, .transaction-display th button.delete-button {
+  background-image: url(https://icons.veryicon.com/png/o/business/simple-linear-icon-icon/delete-332.png);
+  background-position: 1px 0px;
+  background-size: 95%;
+}
+.transaction-display td button:hover, .transaction-display th button:hover {
+  background-color: #ff8796;
+}/*# sourceMappingURL=TransactionDisplay.css.map */

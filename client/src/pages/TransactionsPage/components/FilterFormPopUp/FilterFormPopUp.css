@@ -1,0 +1,77 @@
+.transactions {
+  padding: 0px 3%;
+  position: relative;
+  height: 100%;
+}
+.transactions .summary {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.transactions .summary .title {
+  font-weight: 500;
+}
+.transactions .page-nav {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.transactions .page-nav .limit-input {
+  background-color: #f06c78;
+  padding: 5px 12px;
+  margin: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 20px;
+}
+.transactions .page-nav .limit-input[type=number] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  margin: 0;
+}
+.transactions .page-nav .limit-input[type=number]::-webkit-inner-spin-button, .transactions .page-nav .limit-input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.transactions .page-nav .page-button {
+  background-color: #f06c78;
+  padding: 5px 8px;
+  margin: 0px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.transactions .page-nav .page-button:hover {
+  background-color: #ff8796;
+}
+
+.filter-form {
+  box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.5);
+  background-color: rgb(20, 20, 20);
+  top: 6.5%;
+  left: 5.6%;
+  width: 300px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+.filter-form .filter-form-item {
+  padding: 4px;
+  margin: 10px;
+}/*# sourceMappingURL=FilterFormPopUp.css.map */
